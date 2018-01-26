@@ -27,7 +27,7 @@
   import Me from '../components/Me'
 
   export default {
-    name: 'tabs',
+    name: 'ta',
     components: {
       'home': Home,
       'contact': Contact,
