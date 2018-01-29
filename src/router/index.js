@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '../components/HelloWorld'
 import Tabs from '../pages/Tabs'
 import UserInfo from '../pages/UserInfo'
+import Setting from '../pages/Setting'
 
 Vue.use(Router)
 
@@ -21,6 +22,11 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/set',
+      name: 'Setting',
+      component: Setting
     }
   ],
   mode: 'history'
